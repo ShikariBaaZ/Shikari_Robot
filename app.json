@@ -14,6 +14,22 @@
     ],
     "success_url": "https://t.me/Shikari_Robot",
     "stack": "container",
+     "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
     "env": {
         "BOT_TOKEN": {
             "description": "Telegram bot token get it from  @BotFather",
