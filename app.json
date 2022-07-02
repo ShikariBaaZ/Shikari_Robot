@@ -1,20 +1,15 @@
 {
     "name": "Shikari Robot",
-    "description": "Advanced Telegram Group Management Bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️",
-    "repository": "https://github.com/ShikariBaaZ/Shikari_Robott",
-    "logo": "https://telegra.ph/file/e3ef1e11030e1297061d6.jpg",
+    "description": "Telegram powerfull group management bot.",
     "keywords": [
-    "python3",
-    "Shikari"
-    "telegram",
-    "bot",
-    "mongodb",
-    "Group-Manager-bot",
-    "pyrogram"
-    ],
-    "success_url": "https://t.me/Shikari_Robot",
-    "stack": "container",
-     "addons": [
+       "telegram",
+       "anime",
+       "group",
+       "manager",
+       "yone"
+    ],   
+ "repository": "https://github.com/ShikariBaaZ/Shikari_Robot",
+ "addons": [
     {
        "options": {
           "version": "12"
@@ -60,9 +55,14 @@
             "description": "Get this from @ARQRobot.",
             "required": true
         },
+        "URL": {
+       "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+       "required": false,
+       "value": ""
+    },
         "OWNER_ID": {
             "description": "User ID Of The Owner Of Bot",
             "required": true
         }
     }
-}
+   }
