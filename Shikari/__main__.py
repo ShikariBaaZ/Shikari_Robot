@@ -123,11 +123,11 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
-IMG = ["https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg",
-       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
-       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
-       "https://telegra.ph/file/8738a478904238e367939.jpg",
-       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
+IMG = ["https://telegra.ph/file/bc754951ddc1d771f4768.jpg",
+       "https://telegra.ph/file/59b68ac9679d5a18d53aa.jpg",
+       "https://telegra.ph/file/e3ef1e11030e1297061d6.jpg",
+       "https://telegra.ph/file/060d3b6fc581c209ee748.jpg",
+       "https://telegra.ph/file/060d3b6fc581c209ee748.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
@@ -288,7 +288,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-then Join our Support Group [Support](https://t.me/ShikariSupportNetwork).
+have a look at my [Docs](https://github.com/ShikariBaaZ/Shikari_Robot), or head to @ShikariSupportNetwork..
 **All commands can be used with the following: / **""",
         keyboard,
     )
