@@ -1,0 +1,52 @@
+{
+    "name": "Shikari Robot",
+    "description": "Advanced Telegram Group Management Bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️",
+    "repository": "https://github.com/ShikariBaaZ/Shikari_Robott",
+    "logo": "https://telegra.ph/file/e3ef1e11030e1297061d6.jpg",
+    "keywords": [
+    "python3",
+    "Shikari"
+    "telegram",
+    "bot",
+    "mongodb",
+    "Group-Manager-bot",
+    "pyrogram"
+    ],
+    "success_url": "https://t.me/Shikari_Robot",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram bot token get it from  @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API_ID of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API_HASH of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Get From Here.https://www.mongodb.com/",
+            "required": true
+        },
+        "ARQ_API_URL": {
+            "description": "Don't change this value",
+            "value": "https://arq.hamker.in",
+            "required": true
+        },
+        "ARQ_API_KEY": {
+            "description": "Get this from @ARQRobot.",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "User ID Of The Owner Of Bot",
+            "required": true
+        }
+    }
+}
