@@ -13,4 +13,4 @@ BASE_DB = MONGO_URL
 ARQ_API_URL = environ.get("ARQ_API_URL")
 ARQ_API_KEY = environ.get("ARQ_API_KEY")
 F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
-OWNER_ID = int(environ.get("OWNER_ID")
+OWNER_ID = int(environ.get("OWNER_ID","2044897937"))
