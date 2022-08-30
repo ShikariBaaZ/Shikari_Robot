@@ -52,4 +52,3 @@ Then simply Fork the Repo, Edit Readme file then Edit Deploy Link, enter your Re
 
 ### Special Credits 💖
 - [SHIKARI](https://github.com/ShikariBaaZ): Dev
-- [SAMBODHIRAJ](https://t.me/STAR_BOY_KA_ADDA): Promoter
