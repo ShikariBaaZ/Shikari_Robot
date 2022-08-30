@@ -177,7 +177,7 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
 
-✨My name is ❤️Elija❤️, an  Advanced Telegram Group Management Bot For Protecting Your Groups & For All Your Needs. 
+✨My name is ❤️Shikari❤️, an  Advanced Telegram Group Management Bot For Protecting Your Groups & For All Your Needs. 
 ✨I currently manage about `{len(served_chats)}` Groups.
 ✨I have over `{len(served_users)}` users
 
