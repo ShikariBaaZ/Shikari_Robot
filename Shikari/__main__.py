@@ -65,7 +65,7 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|      (C) 2021-2022 by @Shikarii           |
+|      (C) 2021-2022 by @The_Shikari          |
 |_____________________________________________|  
                                                                                                
     """)
@@ -124,10 +124,10 @@ keyboard = InlineKeyboardMarkup(
 )
 
 IMG = ["https://telegra.ph/file/bc754951ddc1d771f4768.jpg",
-       "https://telegra.ph/file/59b68ac9679d5a18d53aa.jpg",
+       "https://telegra.ph/file/66f4cbd1978ddd57cd034.jpg",
        "https://telegra.ph/file/e3ef1e11030e1297061d6.jpg",
-       "https://telegra.ph/file/060d3b6fc581c209ee748.jpg",
-       "https://telegra.ph/file/060d3b6fc581c209ee748.jpg"
+       "https://telegra.ph/file/7ee84340dfc29b18028d6.jpg",
+       "https://telegra.ph/file/66f4cbd1978ddd57cd034.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
@@ -177,8 +177,9 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
 
-   My name is ❤️Shikari❤️, an  Advanced Telegram Group Management Bot For Protecting Your Groups & For All Your Needs. 
-I currently manage about `{len(served_chats)}` Groups.I have over `{len(served_users)}` users
+✨My name is ❤️Elija❤️, an  Advanced Telegram Group Management Bot For Protecting Your Groups & For All Your Needs. 
+✨I currently manage about `{len(served_chats)}` Groups.
+✨I have over `{len(served_users)}` users
 
 ⚒ Send Me /help For Get Commands. 
 👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @The_Shikarii
